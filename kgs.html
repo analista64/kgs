@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Life is a Strem :: FUNCTIONAL PROGRAMMING BPM GENERATOR</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="kgs.js"></script>
+        <script>
+        </script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row alert alert-info"><h2>ENTORNO DE DESARROLLO FPBG</h2></div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div>
+                        <h3 class="alert alert-primary">PROYECTO</h3>
+                        <input class="form-control" type="text" value="TEST"/>
+                        <br/>
+                    </div>
+                    <div>
+                        <h3 class="alert alert-danger">DISEÑO</h3>
+                        <textarea class="form-control" cols="50" rows="20">FORM:HOME</textarea>
+                    </div>
+                    <br/>
+                    <button class="btn-lg btn-primary" onclick="generate();">Generar</button>
+                </div>
+                <div class="col-sm-6">
+                    <h3 class="alert alert-warning">CANVAS</h3>
+                    <span class="container-fluid col-sm-12 border border-primary" id="canvas">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </body>    
+</html>
